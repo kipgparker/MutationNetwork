@@ -1,4 +1,4 @@
-# Programmable Programmable neural network
+# C# neural network
 
 Neural network capable of forward passing and mutation driven learning
 
