@@ -36,7 +36,7 @@ public class Manager : MonoBehaviour
         for (int i = 0; i < populationSize; i++)
         {
             NeuralNetwork net = new NeuralNetwork(layers);
-            net.Load("Assets/Save.txt");//on start load the network save
+            net.Load("Assets/Pre-trained.txt");//on start load the network save
             networks.Add(net);
         }
     }
